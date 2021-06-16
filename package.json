@@ -1,0 +1,47 @@
+{
+  "name": "uptasknodejs",
+  "version": "1.0.0",
+  "description": "Proyecto UpTask con Node y MVC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "concurrently \"npm run dev \" \"npm run watch \" ",
+    "watch": "webpack --w --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariozer/rmZerdan.git"
+  },
+  "author": "Ruben Mario Zerdan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariozer/rmZerdan/issues"
+  },
+  "homepage": "https://github.com/mariozer/rmZerdan#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "colores": "^1.0.1",
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "mysql2": "^2.2.5",
+    "pug": "^3.0.2",
+    "run": "^1.4.0",
+    "sequelize": "^6.6.2",
+    "shortid": "^2.2.16",
+    "slug": "^5.0.1",
+    "sweetalert2": "^11.0.17",
+    "watch": "^0.13.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "gulp-webserver": "^0.1.0",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.39.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
