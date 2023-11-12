@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/mariozer/rmZerdan#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.0",
     "body-parser": "^1.19.0",
     "colores": "^1.0.1",
     "concurrently": "^6.2.0",
